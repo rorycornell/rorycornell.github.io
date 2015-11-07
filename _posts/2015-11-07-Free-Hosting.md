@@ -20,7 +20,7 @@ GitHub Pages will conveniently serve the website directly for free from a reposi
 
 ##Why Go Static?
 1. ###Simplicity
-Jekyll eliminates complexity when trying to setup a blog:
+Jekyll eliminates complexity when trying to setup a blog
 
 2. ###No database
 Unlike WordPress and other content management systems (CMS), Jekyll does not have a database. All posts and pages are converted to static HTML. This is great for reducing loading times because no database calls are made.
@@ -29,7 +29,7 @@ Create your content in Markdown, and Jekyll will run it through templates to gen
 4. ###Design control
 Jekyll allows users to quickly create and customize their own theme.
 5. ###Security
-The vulnerabilities that affect platforms like WordPress do not exist because Jekyll has no CMS, or database.  You do not have to spend time worrying about security patches.
+The vulnerabilities that affect platforms like WordPress do not exist because Jekyll has no CMS or database.  You do not have to spend time worrying about security patches.
 6. ###Great Hosting
 [GitHub Pages](https://pages.github.com/) will conveniently serve the website directly for free from a repository. 
 
@@ -40,7 +40,14 @@ GitHub reguarding bandwidth:
 Don't get ddosed ;)
 
 
-##Try it out:
+##Try it out
+
+###You will need
+
+* Ruby
+* RubyGems
+* Linux, Unix, or Mac OS X
+
 
 Install Jekyll using `gem install jekyll`, create a new site using `jekyll new mysite`, and then serve it using `jekyll serve`.
 
