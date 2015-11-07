@@ -58,7 +58,7 @@ Click the “Settings” button in the forked repository and change the reposito
 Your website will be live immediately. You can check by going to http://yourusername.github.io.
 
 
-Edit /_posts/2015-10-14-first-post.md, deleting the content and entering your own. If you are new to Markdown, check out https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+Edit /_posts/2015-10-14-first-post.md, deleting the content and entering your own. If you are new to Markdown, check out [Markdown Cheetsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 Jekyll requires posts to be named year-month-day-title.md.
 
