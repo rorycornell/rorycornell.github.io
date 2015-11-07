@@ -4,13 +4,94 @@
  <title>Rory Cornell</title>
  <link href="https://rorycornell.com/atom.xml" rel="self"/>
  <link href="https://rorycornell.com/"/>
- <updated>2015-11-07T13:47:27-05:00</updated>
+ <updated>2015-11-07T16:07:11-05:00</updated>
  <id>https://rorycornell.com</id>
  <author>
    <name>Rory Cornell</name>
    <email></email>
  </author>
 
+ 
+ <entry>
+   <title>How to host a professional static site for free.</title>
+   <link href="https://rorycornell.com/cool/2015/11/06/Free-Hosting/"/>
+   <updated>2015-11-06T21:19:20-05:00</updated>
+   <id>https://rorycornell.com/cool/2015/11/06/Free-Hosting</id>
+   <content type="html">&lt;p&gt;I recently setup rorycornell.com using &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt;, an outstanding static website generator that is designed for quickly building clean and professional blogs.  Jekyll is designed to hit the ground running.&lt;/p&gt;
+
+&lt;p&gt;Jekyll was created by the co-founder of GitHub, &lt;a href=&quot;http://tom.preston-werner.com/&quot;&gt;Tom Preston-Werner&lt;/a&gt; to blog using a simple static HTML website.&lt;/p&gt;
+
+&lt;p&gt;Jekyll takes content written in &lt;a href=&quot;https://en.wikipedia.org/wiki/Markdown&quot;&gt;Markdown&lt;/a&gt;, passes it through templates and creates a complete static website that is ready to be hosted. &lt;/p&gt;
+
+&lt;p&gt;GitHub Pages will conveniently serve the website directly for free from a repository.&lt;/p&gt;
+
+&lt;h2&gt;Why Go Static?&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;h3&gt;Simplicity&lt;/h3&gt;
+
+&lt;p&gt;Jekyll eliminates complexity when trying to setup a blog:&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;No database&lt;/h3&gt;
+
+&lt;p&gt;Unlike WordPress and other content management systems (CMS), Jekyll does not have a database. All posts and pages are converted to static HTML. This is great for reducing loading times because no database calls are made.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;No CMS&lt;/h3&gt;
+
+&lt;p&gt;Create your content in Markdown, and Jekyll will run it through templates to generate a static website. GitHub can serve as a CMS because of the built in editor on their site.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;Design control&lt;/h3&gt;
+
+&lt;p&gt;Jekyll allows users to quickly create and customize their own theme.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;Security&lt;/h3&gt;
+
+&lt;p&gt;The vulnerabilities that affect platforms like WordPress do not exist because Jekyll has no CMS, or database.  You do not have to spend time worrying about security patches.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;Great Hosting&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; will conveniently serve the website directly for free from a repository. &lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;GitHub reguarding bandwidth: &lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;If your bandwidth usage significantly exceeds the average bandwidth usage (as determined solely by GitHub) of other GitHub customers, we reserve the right to immediately disable your account or throttle your file hosting until you can reduce your bandwidth consumption.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h3&gt;TL:DR&lt;/h3&gt;
+
+&lt;p&gt;Don&amp;#39;t get ddosed ;)&lt;/p&gt;
+
+&lt;h2&gt;Try it out:&lt;/h2&gt;
+
+&lt;p&gt;Install Jekyll using &lt;code&gt;gem install jekyll&lt;/code&gt;, create a new site using &lt;code&gt;jekyll new mysite&lt;/code&gt;, and then serve it using &lt;code&gt;jekyll serve&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;You can also fork an existing Jekyll site that you like on Github.
+Feel free to fork my &lt;a href=&quot;https://github.com/rorycornell/rorycornell.github.io&quot;&gt;site&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To fork my site hit the “Fork” button in the top-right corner of the repository to copy it to your GitHub account.&lt;/p&gt;
+
+&lt;p&gt;You can now change your website’s name, description, and other options by editing the _config.yml file inside your copied repo. These settings are pulled into the theme when Jekyll runs.&lt;/p&gt;
+
+&lt;p&gt;Click the “Settings” button in the forked repository and change the repository’s name to yourusername.github.io, replacing yourusername with your GitHub user name.&lt;/p&gt;
+
+&lt;p&gt;Your website will be live immediately. You can check by going to http://yourusername.github.io.&lt;/p&gt;
+
+&lt;p&gt;Edit /_posts/2015-10-14-first-post.md, deleting the content and entering your own. If you are new to Markdown, check out https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&lt;/p&gt;
+
+&lt;p&gt;Jekyll requires posts to be named year-month-day-title.md.&lt;/p&gt;
+
+&lt;h2&gt;Use your domain&lt;/h2&gt;
+
+&lt;p&gt;I recommend that you use the free &lt;a href=&quot;https://cloudflare.com&quot;&gt;Cloudflare&lt;/a&gt; to manage your domain.  Cloudflare is a content delivery network with a free plan that provides analytics, HTTPS, ddos mitigation, security, caching, and improves availability for a website or mobile application.  &lt;/p&gt;
+
+&lt;h3&gt;If you use cloudflare&lt;/h3&gt;
+
+&lt;p&gt;Edit the CNAME file to say your domain (rorycornell.com) as an alias for rorycornell.github.io&lt;/p&gt;
+
+&lt;p&gt;To utilize Cloudflare&amp;#39;s free SSL you go to the Crypto tab and enable Flexible SSL and HTTP Strict Transport Security (HSTS) &lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>First Post</title>
