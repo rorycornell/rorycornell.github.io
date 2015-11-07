@@ -1,0 +1,21 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            Rory Cornell
+tagline:          "srs bsns"
+description:      "Fine, I'll admit it: I'm Rory Cornell"
+url:              https://rorycornell.com
+baseurl:          /
+
+author:
+  name:           'Rory Cornell'
+  url:            https://www.linkedin.com/in/rorycornell
+
+paginate:         5
+
