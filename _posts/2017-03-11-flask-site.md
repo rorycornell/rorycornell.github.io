@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A webapp that scrapes and displays the frontage of news.ycombinator.com
-date: 2017-03-11 12:19:20
+date: 2017-03-11
 categories: cool
 ---
 
