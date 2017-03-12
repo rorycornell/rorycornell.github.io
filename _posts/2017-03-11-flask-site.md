@@ -77,11 +77,11 @@ from flask import Flask
 app = Flask(__name__)
 # Next we create an instance of flask.
 
-@app.route(‘/')
+@app.route('/')
 # We then use @app.route() to tell Flask what URL should trigger our function. In this case the root directory of the site.
 
 def hello_world():
-    return 'Hello, World!’
+    return 'Hello, World!'
 # The function is given a name which is also used to generate URLs for that particular function, and returns the message we want to display in the user’s browser.
 
 if __name__ == '__main__':
