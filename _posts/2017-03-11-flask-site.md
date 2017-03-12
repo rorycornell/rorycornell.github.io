@@ -8,7 +8,7 @@ categories: cool
 A website created in [Flask](http://flask.pocoo.org/docs/0.12/), to display the frontpage of [HackerNews](https://news.ycombinator.com/news)
 
 
-##Introduction
+Introduction
 
 You will need Python 2.7 or newer on your computer to get started. The version of python that is included can be updated by using the [Homebrew](https://brew.sh/) package manager.
 
@@ -100,7 +100,7 @@ Open your web browser and head over to http://127.0.0.1:5000/, and you should se
 
 You can now stop running the script by holding “ctrl c” in the terminal window. Keep the terminal window open to avoid the  inconvenience of navigating to the directory and starting the virtual environment up again.
 
-##Scraping
+Scraping
 
 We will be using the urllib2 library to access the page and BeautifulSoup to pull the titles off of the page.
 
