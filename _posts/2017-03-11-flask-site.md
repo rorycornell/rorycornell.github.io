@@ -7,6 +7,7 @@ categories: cool
 
 A website created in [Flask](http://flask.pocoo.org/docs/0.12/), to display the frontpage of [HackerNews](https://news.ycombinator.com/news)
 
+Here is the link to the finished [code](https://github.com/rorycornell/hnscraper)
 
 Introduction
 
